@@ -1,0 +1,323 @@
+[
+  {
+    "Title": "Deep Breathing Exercise",
+    "Description": "Practice slow, deep breaths to calm your nervous system.",
+    "XP": 5,
+    "Issue Name": "Stress Management"
+  },
+  {
+    "Title": "Progressive Muscle Relaxation",
+    "Description": "Tense and relax different muscle groups to release physical tension.",
+    "XP": 10,
+    "Issue Name": "Stress Management"
+  },
+  {
+    "Title": "Mindful Walking",
+    "Description": "Pay attention to your senses while walking to stay present.",
+    "XP": 8,
+    "Issue Name": "Stress Management"
+  },
+  {
+    "Title": "Guided Meditation for Anxiety",
+    "Description": "Listen to a guided meditation focused on reducing anxiety.",
+    "XP": 15,
+    "Issue Name": "Anxiety Relief"
+  },
+  {
+    "Title": "Anxiety Thought Record",
+    "Description": "Identify and challenge anxious thoughts using a structured worksheet.",
+    "XP": 12,
+    "Issue Name": "Anxiety Relief",
+    "Journal Template": "Date: {{DATE}}\nSituation: {{SITUATION}}\nAutomatic Thoughts: {{AUTOMATIC_THOUGHTS}}\nEmotions: {{EMOTIONS}}\nEvidence for/against: {{EVIDENCE}}\nAlternative Thoughts: {{ALTERNATIVE_THOUGHTS}}\nOutcome: {{OUTCOME}}"
+  },
+  {
+    "Title": "Grounding Techniques",
+    "Description": "Practice 5-4-3-2-1 technique to bring yourself back to the present moment.",
+    "XP": 7,
+    "Issue Name": "Anxiety Relief"
+  },
+  {
+    "Title": "Gratitude Journaling",
+    "Description": "Write down things you are grateful for to shift your perspective.",
+    "XP": 10,
+    "Issue Name": "Depression Support",
+    "Journal Template": "Date: {{DATE}}\nToday I am grateful for:\n1. {{ITEM1}}\n2. {{ITEM2}}\n3. {{ITEM3}}\nHow did this make me feel?: {{FEELING}}"
+  },
+  {
+    "Title": "Behavioral Activation Planner",
+    "Description": "Schedule enjoyable and meaningful activities to boost your mood.",
+    "XP": 15,
+    "Issue Name": "Depression Support"
+  },
+  {
+    "Title": "Light Therapy Session",
+    "Description": "Use a light therapy lamp for a recommended duration to improve mood.",
+    "XP": 10,
+    "Issue Name": "Depression Support"
+  },
+  {
+    "Title": "Sleep Hygiene Checklist",
+    "Description": "Review and implement practices for better sleep quality.",
+    "XP": 8,
+    "Issue Name": "Sleep Improvement"
+  },
+  {
+    "Title": "Relaxing Bedtime Routine",
+    "Description": "Establish a calming routine before bed to prepare for sleep.",
+    "XP": 7,
+    "Issue Name": "Sleep Improvement"
+  },
+  {
+    "Title": "Mindful Eating for Sleep",
+    "Description": "Practice mindful eating, especially for dinner, to aid digestion and sleep.",
+    "XP": 10,
+    "Issue Name": "Sleep Improvement"
+  },
+  {
+    "Title": "Anger Management Techniques",
+    "Description": "Learn and practice techniques like counting to ten or deep breathing when angry.",
+    "XP": 12,
+    "Issue Name": "Anger Management"
+  },
+  {
+    "Title": "Communication Skills Practice",
+    "Description": "Role-play difficult conversations to improve assertive communication.",
+    "XP": 15,
+    "Issue Name": "Anger Management"
+  },
+  {
+    "Title": "Identify Anger Triggers",
+    "Description": "Keep a log of situations that trigger your anger and your reactions.",
+    "XP": 10,
+    "Issue Name": "Anger Management",
+    "Journal Template": "Date: {{DATE}}\nTrigger Situation: {{TRIGGER_SITUATION}}\nMy Reaction: {{MY_REACTION}}\nIntensity (1-10): {{INTENSITY}}\nAlternative Response: {{ALTERNATIVE_RESPONSE}}"
+  },
+  {
+    "Title": "Crisis Safety Plan Review",
+    "Description": "Review and update your personal crisis safety plan with a trusted person.",
+    "XP": 20,
+    "Issue Name": "Suicidal Ideation"
+  },
+  {
+    "Title": "Connect with Support Hotline",
+    "Description": "Reach out to a mental health crisis hotline for immediate support.",
+    "XP": 25,
+    "Issue Name": "Suicidal Ideation"
+  },
+  {
+    "Title": "Remove Means of Self-Harm",
+    "Description": "Identify and remove any means of self-harm from your environment.",
+    "XP": 20,
+    "Issue Name": "Self-Harm"
+  },
+  {
+    "Title": "Distraction Techniques for Urges",
+    "Description": "Practice intense distraction methods when urges to self-harm arise.",
+    "XP": 15,
+    "Issue Name": "Self-Harm"
+  },
+  {
+    "Title": "Interpersonal Effectiveness Skills",
+    "Description": "Learn and practice skills to improve your relationships and achieve your goals.",
+    "XP": 15,
+    "Issue Name": "Relationship Issues"
+  },
+  {
+    "Title": "Active Listening Exercise",
+    "Description": "Practice listening to a loved one without interrupting or judging.",
+    "XP": 10,
+    "Issue Name": "Relationship Issues"
+  },
+  {
+    "Title": "Conflict Resolution Strategies",
+    "Description": "Explore different approaches to resolving disagreements constructively.",
+    "XP": 12,
+    "Issue Name": "Relationship Issues"
+  },
+  {
+    "Title": "Work-Life Balance Assessment",
+    "Description": "Evaluate your current work-life balance and identify areas for improvement.",
+    "XP": 10,
+    "Issue Name": "Career Stress"
+  },
+  {
+    "Title": "Boundary Setting at Work",
+    "Description": "Practice setting clear boundaries with colleagues or superiors.",
+    "XP": 12,
+    "Issue Name": "Career Stress"
+  },
+  {
+    "Title": "Mindful Break at Work",
+    "Description": "Take a short mindful break during your workday to de-stress.",
+    "XP": 7,
+    "Issue Name": "Career Stress"
+  },
+  {
+    "Title": "Exposure Hierarchy for Social Situations",
+    "Description": "Gradually expose yourself to feared social situations, starting small.",
+    "XP": 18,
+    "Issue Name": "Social Anxiety"
+  },
+  {
+    "Title": "Social Skills Practice",
+    "Description": "Practice initiating conversations or making eye contact in low-stakes environments.",
+    "XP": 12,
+    "Issue Name": "Social Anxiety"
+  },
+  {
+    "Title": "Challenge Negative Self-Talk",
+    "Description": "Identify and reframe negative thoughts about social interactions.",
+    "XP": 10,
+    "Issue Name": "Social Anxiety",
+    "Journal Template": "Date: {{DATE}}\nSocial Situation: {{SOCIAL_SITUATION}}\nNegative Self-Talk: {{NEGATIVE_SELF_TALK}}\nReframe: {{REFRAME}}\nOutcome: {{OUTCOME}}"
+  },
+  {
+    "Title": "Affirmation Practice",
+    "Description": "Repeat positive affirmations daily to build self-worth.",
+    "XP": 8,
+    "Issue Name": "Self-Esteem Building"
+  },
+  {
+    "Title": "Identify Strengths Exercise",
+    "Description": "List your personal strengths and accomplishments.",
+    "XP": 10,
+    "Issue Name": "Self-Esteem Building",
+    "Journal Template": "Date: {{DATE}}\nMy Strengths:\n1. {{STRENGTH1}}\n2. {{STRENGTH2}}\n3. {{STRENGTH3}}\nHow can I use these strengths?: {{HOW_TO_USE}}"
+  },
+  {
+    "Title": "Self-Compassion Break",
+    "Description": "Practice a short self-compassion meditation when feeling inadequate.",
+    "XP": 7,
+    "Issue Name": "Self-Esteem Building"
+  },
+  {
+    "Title": "Financial Planning Basics",
+    "Description": "Learn about budgeting and basic financial management to reduce stress.",
+    "XP": 15,
+    "Issue Name": "Financial Stress"
+  },
+  {
+    "Title": "Debt Management Strategy",
+    "Description": "Develop a plan to tackle debt and improve financial stability.",
+    "XP": 20,
+    "Issue Name": "Financial Stress"
+  },
+  {
+    "Title": "Parenting Stress Reduction Techniques",
+    "Description": "Explore strategies like time-outs for parents or delegating tasks.",
+    "XP": 12,
+    "Issue Name": "Parenting Stress"
+  },
+  {
+    "Title": "Positive Parenting Strategies",
+    "Description": "Learn and implement techniques for fostering a positive parent-child relationship.",
+    "XP": 15,
+    "Issue Name": "Parenting Stress"
+  },
+  {
+    "Title": "Life Transition Planning",
+    "Description": "Create a plan for navigating significant life changes like retirement or moving.",
+    "XP": 15,
+    "Issue Name": "Life Transitions"
+  },
+  {
+    "Title": "Grief Processing Exercise",
+    "Description": "Engage in an activity that helps you process feelings of loss, like writing a letter.",
+    "XP": 15,
+    "Issue Name": "Grief and Loss"
+  },
+  {
+    "Title": "Chronic Pain Acceptance Meditation",
+    "Description": "Practice a meditation focused on accepting and coping with chronic pain.",
+    "XP": 15,
+    "Issue Name": "Chronic Illness and Pain"
+  },
+  {
+    "Title": "Caregiver Support Group Search",
+    "Description": "Find and connect with local or online support groups for caregivers.",
+    "XP": 12,
+    "Issue Name": "Caregiver Burnout"
+  },
+  {
+    "Title": "Spiritual Exploration Journal",
+    "Description": "Write about your beliefs, values, and questions regarding spirituality.",
+    "XP": 10,
+    "Issue Name": "Spiritual Crisis",
+    "Journal Template": "Date: {{DATE}}\nSpiritual Question/Dilemma: {{QUESTION}}\nMy Thoughts/Feelings: {{THOUGHTS_FEELINGS}}\nWhat brings me peace?: {{PEACE}}"
+  },
+  {
+    "Title": "Existential Inquiry Reflection",
+    "Description": "Reflect on questions about meaning, purpose, and existence.",
+    "XP": 12,
+    "Issue Name": "Existential Crisis",
+    "Journal Template": "Date: {{DATE}}\nExistential Question: {{QUESTION}}\nMy Reflections: {{REFLECTIONS}}\nWhat gives my life meaning?: {{MEANING}}"
+  },
+  {
+    "Title": "Identity Exploration Worksheet",
+    "Description": "Complete a worksheet designed to help you explore different aspects of your identity.",
+    "XP": 10,
+    "Issue Name": "Identity Crisis",
+    "Journal Template": "Date: {{DATE}}\nAspect of Identity: {{ASPECT}}\nMy Beliefs/Feelings: {{BELIEFS_FEELINGS}}\nHow does this shape me?: {{SHAPE_ME}}"
+  },
+  {
+    "Title": "Cultural Adaptation Strategies",
+    "Description": "Learn and apply strategies for adapting to a new cultural environment.",
+    "XP": 12,
+    "Issue Name": "Cultural Adjustment"
+  },
+  {
+    "Title": "Advocacy and Rights Education",
+    "Description": "Educate yourself on your rights and how to advocate against discrimination.",
+    "XP": 15,
+    "Issue Name": "Discrimination and Bias"
+  },
+  {
+    "Title": "LGBTQ+ Community Resources",
+    "Description": "Research and connect with local or online LGBTQ+ support organizations.",
+    "XP": 10,
+    "Issue Name": "LGBTQ+ Support"
+  },
+  {
+    "Title": "Veteran Peer Support Group",
+    "Description": "Find and attend a peer support group specifically for veterans.",
+    "XP": 12,
+    "Issue Name": "Veteran Support"
+  },
+  {
+    "Title": "Visualization for Performance",
+    "Description": "Practice visualizing successful performance in your sport or activity.",
+    "XP": 10,
+    "Issue Name": "Sports Psychology"
+  },
+  {
+    "Title": "Creative Brainstorming Session",
+    "Description": "Engage in a free-form brainstorming session to overcome creative blocks.",
+    "XP": 10,
+    "Issue Name": "Creativity Block"
+  },
+  {
+    "Title": "Nature Immersion for Eco-Anxiety",
+    "Description": "Spend time in nature to reduce feelings of environmental anxiety.",
+    "XP": 10,
+    "Issue Name": "Environmental Anxiety"
+  },
+  {
+    "Title": "Digital Detox Challenge",
+    "Description": "Commit to a period of reduced screen time to improve digital well-being.",
+    "XP": 12,
+    "Issue Name": "Digital Well-being"
+  },
+  {
+    "Title": "Online Safety and Reporting Guide",
+    "Description": "Review resources on how to stay safe online and report harassment.",
+    "XP": 10,
+    "Issue Name": "Online Harassment"
+  },
+  {
+    "Title": "Moral Dilemma Reflection",
+    "Description": "Reflect on a past moral dilemma and explore different ethical frameworks.",
+    "XP": 12,
+    "Issue Name": "Moral Injury",
+    "Journal Template": "Date: {{DATE}}\nMoral Dilemma: {{DILEMMA}}\nMy Actions/Decisions: {{ACTIONS}}\nImpact on me/others: {{IMPACT}}\nLessons Learned: {{LESSONS}}"
+  }
+]

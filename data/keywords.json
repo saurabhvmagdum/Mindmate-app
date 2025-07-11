@@ -1,0 +1,542 @@
+[
+  {
+    "keyword": "stress",
+    "issue": "Stress Management",
+    "score": 0.8
+  },
+  {
+    "keyword": "anxiety",
+    "issue": "Anxiety Relief",
+    "score": 0.9
+  },
+  {
+    "keyword": "depressed",
+    "issue": "Depression Support",
+    "score": 0.95
+  },
+  {
+    "keyword": "sad",
+    "issue": "Depression Support",
+    "score": 0.7
+  },
+  {
+    "keyword": "lonely",
+    "issue": "Loneliness",
+    "score": 0.85
+  },
+  {
+    "keyword": "anger",
+    "issue": "Anger Management",
+    "score": 0.8
+  },
+  {
+    "keyword": "frustrated",
+    "issue": "Anger Management",
+    "score": 0.75
+  },
+  {
+    "keyword": "sleep",
+    "issue": "Sleep Improvement",
+    "score": 0.7
+  },
+  {
+    "keyword": "insomnia",
+    "issue": "Sleep Improvement",
+    "score": 0.8
+  },
+  {
+    "keyword": "focus",
+    "issue": "Focus and Productivity",
+    "score": 0.7
+  },
+  {
+    "keyword": "procrastinate",
+    "issue": "Focus and Productivity",
+    "score": 0.75
+  },
+  {
+    "keyword": "grief",
+    "issue": "Grief and Loss",
+    "score": 0.9
+  },
+  {
+    "keyword": "loss",
+    "issue": "Grief and Loss",
+    "score": 0.85
+  },
+  {
+    "keyword": "relationship",
+    "issue": "Relationship Issues",
+    "score": 0.8
+  },
+  {
+    "keyword": "communication",
+    "issue": "Relationship Issues",
+    "score": 0.75
+  },
+  {
+    "keyword": "self-esteem",
+    "issue": "Self-Esteem Building",
+    "score": 0.85
+  },
+  {
+    "keyword": "confidence",
+    "issue": "Self-Esteem Building",
+    "score": 0.8
+  },
+  {
+    "keyword": "panic attack",
+    "issue": "Panic Attacks",
+    "score": 0.95
+  },
+  {
+    "keyword": "panic",
+    "issue": "Panic Attacks",
+    "score": 0.9
+  },
+  {
+    "keyword": "trauma",
+    "issue": "Trauma Recovery",
+    "score": 0.95
+  },
+  {
+    "keyword": "ptsd",
+    "issue": "Trauma Recovery",
+    "score": 0.95
+  },
+  {
+    "keyword": "addiction",
+    "issue": "Addiction Recovery",
+    "score": 0.95
+  },
+  {
+    "keyword": "substance abuse",
+    "issue": "Addiction Recovery",
+    "score": 0.95
+  },
+  {
+    "keyword": "eating disorder",
+    "issue": "Eating Disorders",
+    "score": 0.95
+  },
+  {
+    "keyword": "body image",
+    "issue": "Eating Disorders",
+    "score": 0.85
+  },
+  {
+    "keyword": "bipolar",
+    "issue": "Bipolar Disorder Support",
+    "score": 0.95
+  },
+  {
+    "keyword": "mania",
+    "issue": "Bipolar Disorder Support",
+    "score": 0.9
+  },
+  {
+    "keyword": "schizophrenia",
+    "issue": "Schizophrenia Support",
+    "score": 0.95
+  },
+  {
+    "keyword": "psychosis",
+    "issue": "Schizophrenia Support",
+    "score": 0.9
+  },
+  {
+    "keyword": "ocd",
+    "issue": "OCD Management",
+    "score": 0.95
+  },
+  {
+    "keyword": "obsessive",
+    "issue": "OCD Management",
+    "score": 0.9
+  },
+  {
+    "keyword": "adhd",
+    "issue": "ADHD Management",
+    "score": 0.95
+  },
+  {
+    "keyword": "attention deficit",
+    "issue": "ADHD Management",
+    "score": 0.9
+  },
+  {
+    "keyword": "autism",
+    "issue": "Autism Spectrum Support",
+    "score": 0.95
+  },
+  {
+    "keyword": "asperger's",
+    "issue": "Autism Spectrum Support",
+    "score": 0.9
+  },
+  {
+    "keyword": "borderline",
+    "issue": "Borderline Personality Support",
+    "score": 0.95
+  },
+  {
+    "keyword": "bpd",
+    "issue": "Borderline Personality Support",
+    "score": 0.95
+  },
+  {
+    "keyword": "suicidal",
+    "issue": "Suicidal Ideation",
+    "score": 1.0
+  },
+  {
+    "keyword": "self-harm",
+    "issue": "Self-Harm",
+    "score": 1.0
+  },
+  {
+    "keyword": "hopeless",
+    "issue": "Depression Support",
+    "score": 0.8
+  },
+  {
+    "keyword": "worthless",
+    "issue": "Self-Esteem Building",
+    "score": 0.8
+  },
+  {
+    "keyword": "overwhelmed",
+    "issue": "Stress Management",
+    "score": 0.75
+  },
+  {
+    "keyword": "burnout",
+    "issue": "Stress Management",
+    "score": 0.85
+  },
+  {
+    "keyword": "fear",
+    "issue": "Anxiety Relief",
+    "score": 0.7
+  },
+  {
+    "keyword": "worry",
+    "issue": "Anxiety Relief",
+    "score": 0.7
+  },
+  {
+    "keyword": "gaba",
+    "issue": "Anxiety Relief",
+    "score": 0.6
+  },
+  {
+    "keyword": "cbt",
+    "issue": "Cognitive Behavioral Therapy",
+    "score": 0.9
+  },
+  {
+    "keyword": "dbt",
+    "issue": "Dialectical Behavior Therapy",
+    "score": 0.9
+  },
+  {
+    "keyword": "mindfulness",
+    "issue": "Mindfulness and Meditation",
+    "score": 0.85
+  },
+  {
+    "keyword": "meditation",
+    "issue": "Mindfulness and Meditation",
+    "score": 0.8
+  },
+  {
+    "keyword": "exercise",
+    "issue": "Physical Activity and Mood",
+    "score": 0.7
+  },
+  {
+    "keyword": "diet",
+    "issue": "Nutrition and Mental Health",
+    "score": 0.7
+  },
+  {
+    "keyword": "nutrition",
+    "issue": "Nutrition and Mental Health",
+    "score": 0.75
+  },
+  {
+    "keyword": "journal",
+    "issue": "Journaling and Self-Reflection",
+    "score": 0.8
+  },
+  {
+    "keyword": "gratitude",
+    "issue": "Gratitude Practice",
+    "score": 0.85
+  },
+  {
+    "keyword": "social anxiety",
+    "issue": "Social Anxiety",
+    "score": 0.9
+  },
+  {
+    "keyword": "public speaking",
+    "issue": "Social Anxiety",
+    "score": 0.75
+  },
+  {
+    "keyword": "perfectionism",
+    "issue": "Perfectionism",
+    "score": 0.85
+  },
+  {
+    "keyword": "self-criticism",
+    "issue": "Self-Compassion",
+    "score": 0.85
+  },
+  {
+    "keyword": "compassion",
+    "issue": "Self-Compassion",
+    "score": 0.8
+  },
+  {
+    "keyword": "forgiveness",
+    "issue": "Forgiveness",
+    "score": 0.8
+  },
+  {
+    "keyword": "resentment",
+    "issue": "Forgiveness",
+    "score": 0.75
+  },
+  {
+    "keyword": "boundaries",
+    "issue": "Setting Boundaries",
+    "score": 0.85
+  },
+  {
+    "keyword": "assertiveness",
+    "issue": "Setting Boundaries",
+    "score": 0.8
+  },
+  {
+    "keyword": "time management",
+    "issue": "Time Management",
+    "score": 0.8
+  },
+  {
+    "keyword": "productivity",
+    "issue": "Focus and Productivity",
+    "score": 0.75
+  },
+  {
+    "keyword": "career",
+    "issue": "Career Stress",
+    "score": 0.8
+  },
+  {
+    "keyword": "work-life balance",
+    "issue": "Career Stress",
+    "score": 0.85
+  },
+  {
+    "keyword": "financial stress",
+    "issue": "Financial Stress",
+    "score": 0.9
+  },
+  {
+    "keyword": "money problems",
+    "issue": "Financial Stress",
+    "score": 0.85
+  },
+  {
+    "keyword": "parenting stress",
+    "issue": "Parenting Stress",
+    "score": 0.9
+  },
+  {
+    "keyword": "child behavior",
+    "issue": "Parenting Stress",
+    "score": 0.85
+  },
+  {
+    "keyword": "empty nest",
+    "issue": "Life Transitions",
+    "score": 0.8
+  },
+  {
+    "keyword": "retirement",
+    "issue": "Life Transitions",
+    "score": 0.8
+  },
+  {
+    "keyword": "midlife crisis",
+    "issue": "Life Transitions",
+    "score": 0.85
+  },
+  {
+    "keyword": "aging",
+    "issue": "Life Transitions",
+    "score": 0.8
+  },
+  {
+    "keyword": "chronic pain",
+    "issue": "Chronic Illness and Pain",
+    "score": 0.9
+  },
+  {
+    "keyword": "illness",
+    "issue": "Chronic Illness and Pain",
+    "score": 0.85
+  },
+  {
+    "keyword": "disability",
+    "issue": "Chronic Illness and Pain",
+    "score": 0.85
+  },
+  {
+    "keyword": "caregiver stress",
+    "issue": "Caregiver Burnout",
+    "score": 0.9
+  },
+  {
+    "keyword": "caregiving",
+    "issue": "Caregiver Burnout",
+    "score": 0.85
+  },
+  {
+    "keyword": "spiritual crisis",
+    "issue": "Spiritual Crisis",
+    "score": 0.9
+  },
+  {
+    "keyword": "faith crisis",
+    "issue": "Spiritual Crisis",
+    "score": 0.85
+  },
+  {
+    "keyword": "existential crisis",
+    "issue": "Existential Crisis",
+    "score": 0.9
+  },
+  {
+    "keyword": "meaning of life",
+    "issue": "Existential Crisis",
+    "score": 0.85
+  },
+  {
+    "keyword": "identity crisis",
+    "issue": "Identity Crisis",
+    "score": 0.9
+  },
+  {
+    "keyword": "self-discovery",
+    "issue": "Identity Crisis",
+    "score": 0.85
+  },
+  {
+    "keyword": "cultural adjustment",
+    "issue": "Cultural Adjustment",
+    "score": 0.9
+  },
+  {
+    "keyword": "immigrant stress",
+    "issue": "Cultural Adjustment",
+    "score": 0.85
+  },
+  {
+    "keyword": "discrimination",
+    "issue": "Discrimination and Bias",
+    "score": 0.9
+  },
+  {
+    "keyword": "prejudice",
+    "issue": "Discrimination and Bias",
+    "score": 0.85
+  },
+  {
+    "keyword": "lgbtq+",
+    "issue": "LGBTQ+ Support",
+    "score": 0.9
+  },
+  {
+    "keyword": "gender identity",
+    "issue": "LGBTQ+ Support",
+    "score": 0.85
+  },
+  {
+    "keyword": "sexual orientation",
+    "issue": "LGBTQ+ Support",
+    "score": 0.85
+  },
+  {
+    "keyword": "veteran support",
+    "issue": "Veteran Support",
+    "score": 0.9
+  },
+  {
+    "keyword": "military transition",
+    "issue": "Veteran Support",
+    "score": 0.85
+  },
+  {
+    "keyword": "sports psychology",
+    "issue": "Sports Psychology",
+    "score": 0.9
+  },
+  {
+    "keyword": "performance anxiety",
+    "issue": "Sports Psychology",
+    "score": 0.85
+  },
+  {
+    "keyword": "creativity block",
+    "issue": "Creativity Block",
+    "score": 0.85
+  },
+  {
+    "keyword": "artist's block",
+    "issue": "Creativity Block",
+    "score": 0.8
+  },
+  {
+    "keyword": "environmental anxiety",
+    "issue": "Environmental Anxiety",
+    "score": 0.9
+  },
+  {
+    "keyword": "climate change anxiety",
+    "issue": "Environmental Anxiety",
+    "score": 0.85
+  },
+  {
+    "keyword": "digital detox",
+    "issue": "Digital Well-being",
+    "score": 0.85
+  },
+  {
+    "keyword": "screen time",
+    "issue": "Digital Well-being",
+    "score": 0.8
+  },
+  {
+    "keyword": "online harassment",
+    "issue": "Online Harassment",
+    "score": 0.9
+  },
+  {
+    "keyword": "cyberbullying",
+    "issue": "Online Harassment",
+    "score": 0.85
+  },
+  {
+    "keyword": "moral injury",
+    "issue": "Moral Injury",
+    "score": 0.9
+  },
+  {
+    "keyword": "ethical dilemma",
+    "issue": "Moral Injury",
+    "score": 0.85
+  }
+]

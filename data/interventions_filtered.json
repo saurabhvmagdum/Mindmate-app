@@ -1,0 +1,23 @@
+[
+  {
+    "Issue Name": "Suicidal Behavior",
+    "Title": "Crisis Safety Plan",
+    "Description": "Create a personalized safety plan with coping strategies, support contacts, and steps to take during crisis moments.",
+    "XP": 15,
+    "Journal Template": "What are your personal warning signs that you're in crisis? Who are three people you can reach out to? What activities or places make you feel safer?"
+  },
+  {
+    "Issue Name": "Suicidal Behavior", 
+    "Title": "Grounding for Crisis",
+    "Description": "Use intensive grounding techniques to stay present and connected to safety when experiencing suicidal thoughts.",
+    "XP": 12,
+    "Journal Template": "What grounding techniques helped you feel more present? What reasons do you have for staying safe? What would you want others to know about how you're feeling?"
+  },
+  {
+    "Issue Name": "Suicidal Behavior",
+    "Title": "Reach Out Exercise",
+    "Description": "Practice reaching out to a trusted person, crisis line, or mental health professional for immediate support.",
+    "XP": 20,
+    "Journal Template": "Who did you reach out to? How did it feel to share your struggles? What support do you need right now to stay safe?"
+  }
+]
