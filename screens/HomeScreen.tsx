@@ -12,9 +12,12 @@ import { Card, Button } from "react-native-paper";
 import { LocalStorage, type UserProgress } from "../lib/storage";
 import {
   findBestMatch,
+  findBestMatchCosine,
   getMatchingInterventions,
+  getRecommendedInterventions,
   type KeywordItem,
   type Intervention,
+  type ThoughtProItem,
 } from "../lib/nlp";
 import {
   Brain,
@@ -29,9 +32,11 @@ import {
 import keywordsData from "../data/keywords.json";
 import interventionsData from "../data/interventions.json";
 import filteredInterventionsData from "../data/interventions_filtered.json";
+import thoughtProData from "../data/thought_pro.json";
+import thoughtProFilteredData from "../data/thought_pro_filtered.json";
 
 const preloadedFeelings = [
-  "Anxious",
+  "I am Anxious",
   "I'm feeling down",
   "I'm stressed with work",
   "I'm having relationship issues",
@@ -45,7 +50,7 @@ export default function HomeScreen() {
     score: number;
   } | null>(null);
   const [matchingInterventions, setMatchingInterventions] = useState<
-    Intervention[]
+    (Intervention | ThoughtProItem)[]
   >([]);
   const [userProgress, setUserProgress] = useState<UserProgress>({
     xp: 0,
@@ -67,16 +72,22 @@ export default function HomeScreen() {
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     const keywords = keywordsData as KeywordItem[];
-    const result = findBestMatch(inputText, keywords);
+    
+    // Use the new getRecommendedInterventions function that combines cosine similarity and string matching
+    const recommendationResult = getRecommendedInterventions(
+      inputText,
+      keywords,
+      interventionsData as Intervention[],
+      filteredInterventionsData as Intervention[],
+      thoughtProData as ThoughtProItem[]
+    );
 
-    if (result.score > 0) {
-      setAnalysisResult(result);
-      const interventions = getMatchingInterventions(
-        result.issue,
-        interventionsData as Intervention[],
-        filteredInterventionsData as Intervention[]
-      );
-      setMatchingInterventions(interventions);
+    if (recommendationResult.score > 0) {
+      setAnalysisResult({
+        issue: recommendationResult.issue,
+        score: recommendationResult.score
+      });
+      setMatchingInterventions(recommendationResult.interventions);
     } else {
       setAnalysisResult({ issue: "No specific match found", score: 0 });
       setMatchingInterventions([]);
@@ -85,13 +96,17 @@ export default function HomeScreen() {
     setIsAnalyzing(false);
   };
 
-  const handleStartIntervention = (intervention: Intervention) => {
+  const handleStartIntervention = (intervention: Intervention | ThoughtProItem) => {
+    // Get the title and XP based on the intervention type
+    const title = ('Title' in intervention) ? (intervention as Intervention | ThoughtProItem).Title : '';
+    const xp = ('XP' in intervention) ? (intervention as { XP: number }).XP : 0;
+    
     const newProgress = LocalStorage.markInterventionComplete(
-      intervention.Title,
-      intervention.XP
+      title,
+      xp
     );
     newProgress.then((progress) => setUserProgress(progress));
-    Alert.alert("Intervention Completed!", `You earned ${intervention.XP} XP!`);
+    Alert.alert("Intervention Completed!", `You earned ${xp} XP!`);
   };
 
   return (
@@ -201,12 +216,16 @@ export default function HomeScreen() {
         {matchingInterventions.length > 0 && (
           <View style={styles.interventionsList}>
             {matchingInterventions.map((intervention, index) => {
-              const isCompleted = userProgress.completedInterventions.includes(
-                intervention.Title
-              );
-              const isSuicideRelated = intervention["Issue Name"]
-                .toLowerCase()
-                .includes("suicidal");
+              // Get the title and other properties based on the intervention type
+              const title = ('Title' in intervention) ? (intervention as Intervention | ThoughtProItem).Title : '';
+              const description = 'Description' in intervention ? (intervention as Intervention | ThoughtProItem).Description : '';
+              const xp = 'XP' in intervention ? (intervention as { XP: number }).XP : 0;
+              const journalTemplate = 'Journal Template' in intervention ? intervention["Journal Template"] : 
+                                     intervention["Journal Template"] || "";
+              const issueName = 'Issue Name' in intervention ? intervention["Issue Name"] : intervention["Issue Name"];
+              
+              const isCompleted = userProgress.completedInterventions.includes(title);
+              const isSuicideRelated = issueName.toLowerCase().includes("suicidal");
 
               return (
                 <Card
@@ -222,7 +241,7 @@ export default function HomeScreen() {
                     <View style={styles.interventionHeader}>
                       <View style={styles.interventionTitleContainer}>
                         <Text style={styles.interventionTitleText}>
-                          {intervention.Title}
+                          {title}
                           {isSuicideRelated && (
                             <AlertTriangle
                               size={16}
@@ -232,16 +251,16 @@ export default function HomeScreen() {
                           )}
                         </Text>
                         <Text style={styles.interventionDescription}>
-                          {intervention.Description}
+                          {description}
                         </Text>
                       </View>
                       <View style={styles.interventionXpContainer}>
                         <View style={styles.xpBadge}>
                           <Text style={styles.xpBadgeText}>
-                            +{intervention.XP} XP
+                            +{xp} XP
                           </Text>
                         </View>
-                        {intervention["Journal Template"] && (
+                        {journalTemplate && (
                           <View style={styles.journalIconContainer}>
                             <Book size={12} color="#2563eb" />
                           </View>
@@ -252,9 +271,9 @@ export default function HomeScreen() {
                       <View style={styles.interventionTime}>
                         <Clock size={16} color="#6b7280" />
                         <Text style={styles.interventionTimeText}>
-                          {intervention.XP <= 5
+                          {xp <= 5
                             ? "5"
-                            : intervention.XP <= 10
+                            : xp <= 10
                             ? "10"
                             : "15"}{" "}
                           minutes
@@ -272,7 +291,7 @@ export default function HomeScreen() {
                           isSuicideRelated
                             ? styles.interventionButtonSuicide
                             : null,
-                          intervention["Journal Template"]
+                          journalTemplate
                             ? styles.interventionButtonJournal
                             : null,
                         ]}
@@ -280,7 +299,7 @@ export default function HomeScreen() {
                       >
                         {isCompleted
                           ? "Completed"
-                          : intervention["Journal Template"]
+                          : journalTemplate
                           ? "Open Journal"
                           : "Start Exercise"}
                       </Button>
